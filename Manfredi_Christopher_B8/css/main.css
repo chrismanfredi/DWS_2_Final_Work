@@ -8,6 +8,9 @@ body {
 
 h1 {
 	text-align: center;	
+	font-family: 'Oleo Script', cursive;
+	color: #651E2C;
+
 }
 
 
@@ -55,6 +58,12 @@ h1 {
 	position: absolute;
 	left: 90%;
 	top: 20%;	
+}
+
+#gloves:hover {
+	transform:translateX(-100px);
+	-ms-transform:translateX(-100px);
+	-webkit-transform:translateX(-100px);	
 }
 
 /* Photo 4 Red Skins player second row left */
@@ -111,6 +120,12 @@ h1 {
 	top: 60%;	
 }
 
+#wallpaper:hover {
+	transform:translateY(100px);
+	-ms-transform:translateY(100px);
+	-webkit-transform:translateY(100px);	
+}
+
 /* Photo 8 Red Skins Cake Third Row center */
 #cake {
 	width: 7%;
@@ -149,6 +164,15 @@ h1 {
 	position: absolute;
 	left: 70%;
 	top: 80%;	
+}
+
+#hat:hover {
+	transition-timing-function:linear;
+	-ms-transition-timing-function:linear;
+	-webkit-transition-timing-function:linear;	
+	transition-delay: 2s;
+	-ms-transition-delay: 2s;
+	-webkit-transition-delay: 2s;
 }
 
 img  {
@@ -191,6 +215,9 @@ a:hover {
     transition: color 1s linear;
 }
 
+
+/* Article 1 */
+
 #article {
 	border: 2px solid black;
 	width: 35%;	
@@ -198,16 +225,6 @@ a:hover {
 	height: 35%;
 	padding: 5px;
 	margin: 5px;
-	background-color: white;
-}
-
-#article2 {
-	border: 2px solid black;
-	width: 35%;
-	height: 35%;
-	margin-top: 20px;
-	margin-left: 5px;
-	padding: 5px;	
 	background-color: white;
 }
 
@@ -234,6 +251,19 @@ a:hover {
 	-ms-transition-duration: 2s;
 	-webkit-transition-duration: 2s;
 	color: #E8A800;
+}
+
+
+/* Article 2 */
+
+#article2 {
+	border: 2px solid black;
+	width: 35%;
+	height: 35%;
+	margin-top: 20px;
+	margin-left: 5px;
+	padding: 5px;	
+	background-color: white;
 }
 		
 #article2:hover {
@@ -271,6 +301,11 @@ a:hover {
 	color: #E8A800;	
 }
 
+
+
+
+/* Article 3 */
+
 #article3 {
 	width: 40%;	
 	float: left;
@@ -290,6 +325,12 @@ a:hover {
 	background-color: #651E2C;
 }
 
+
+
+
+
+/* Article 4 */
+
 #article4 {
 	width: 40%;	
 	float: left;
@@ -308,6 +349,10 @@ a:hover {
 	color: #E8A800;	
 	background-color: #651E2C;
 }
+
+
+
+/* Article 5 */
 
 #article5 {
 	width: 40%;	
@@ -332,6 +377,11 @@ a:hover {
 	background-color: #651E2C;
 	width: 90%;
 }
+
+
+
+
+
 
 /* #Media Queries
 ================================================== */
