@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+
+<title> B7 </title>
+
+</head>
+
+
+<body>
+<h1> Current Employee Form </h1>
+
+
+	<form class="form">
+        
+        <!-- First Name -->
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="ex: Joe" maxlength="30" autocomplete="off" autofocus>
+        
+        <!-- Last Name -->
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" placeholder="ex: Schmoe" maxlength="30" autocomplete="off">
+        
+        <!-- Address -->
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="ex: 123 Candy Lane" maxlength="30" autocomplete="off">
+        
+        <!-- Favorite Color -->
+        <label>Select Favorite Color</label>
+        <select name="dropdown" class="dropdown">
+		<option value="#">Colors</option>
+		<option value="red">Red</option>
+		<option value="orange">Orange</option>
+		<option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="indigo">Indigo</option>
+        <option value="violet">Violet</option>
+        </select>
+        
+        
+        <!-- Why do you like this color -->
+        <label> Why do you like this color </label>
+        <textarea cols="40" rows="5" name="myname" maxlength="30"> </textarea>
+       
+        
+        <!-- Birthday -->
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday">
+        
+        <!-- Telephone Number -->
+        <label for="phonenumber">Phone Number</label>
+        <input type="tel" id="phonenumber" placeholder="ex: 555-555-5555" autocomplete="off">
+        
+        <!-- Place Of Employment -->
+        <label for="employment">Place Of Employment</label>
+        <input type="text" id="employment" placeholder="ex: McDonald's" maxlength="30" autocomplete="off">
+        
+        <!-- start date -->
+        <label for="date">Start Date</label>
+        <input type="date" id="date">
+        
+        <!-- How long have you worked here -->
+        <label for="years">How many years have you worked here</label>
+        <input type="text" id="years" placeholder="ex: 1 year" maxlength="30" autocomplete="off">
+        
+        <!-- Rate Your Experience -->
+        <label for="range">Rate your experiences as an employee 1-10</label>
+    	1<input type="range" id="range" min="1" max="10">10
+        
+        <!-- What is your gender -->
+        <label for="range">What is your Gender</label><br>
+        <input type="radio" name="sex" value="male"> Male <br>
+        <input type="radio" name="sex" value="female"> Female<br>
+        
+         <br>
+        
+        <!-- Agree to terms -->
+		<input type="checkbox" name="option1" value="terms"> I agree to the terms and conditions <br>
+		<input type="checkbox" name="option2" value="terms"> I agree all the information above is correct							        <br>
+        
+         <input type="button" value="Submit" id="submit">
+</form>
+	
+
+        
+        
+        
+        
+
+</body>
+</html>

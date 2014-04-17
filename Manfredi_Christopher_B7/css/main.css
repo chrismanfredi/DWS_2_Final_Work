@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: white;
+		
+	
+}
+
+h1 {
+	color: Orange;
+	text-align: center;	
+	font-family: 'Oleo Script', cursive;
+
+}
+
+h2 {
+	text-align: center;
+	color: white;	
+}
+
+p {
+	color: #F0F;	
+}
+
+
+input[type='range'] {
+	background-color: green;	
+}
+
+input[type="checkbox"] {
+	background-color: green;
+	width: 3%;	
+	clear: both;
+}
+
+input[type="radio"] {
+	background-color: green;
+	width: 3%;	
+	clear: both;
+}
+
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+	font-family: 'Trade Winds', cursive;
+	color: green;
+
+}
+input {
+	width: 40%;
+	height: 15px;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
+	position: relative;
+	top: -1px;
+    overflow: hidden;
+	border-radius: 10px;
+	background-color: #FFC;
+	border: 2px solid black
+}
+
+input #submit {
+	color:#090;
+	background-color:#FF3;
+	padding:5px;
+	margin:20px;
+	width:230px;
+	height: 30px;
+	text-align:center;
+	clear: both;
+}
+
+input#submit:hover {
+	color: #930;
+	background-color: #00C;
+}
+
+input:focus {
+	background-color: blue;
+	color: yellow;	
+}
+
+textarea:active {
+	background-color: yellow;	
+}
+
+.dropdown {
+	color: green;	
+}
+
+
+input.radio {
+	color: green;	
+	text-align: left;
+	padding: 0 30px 30px 0;
+
+}
+
+
+form {
+	border: 1px solid black;	
+	width: 40%;
+	margin: 0 auto;
+	background-color: #6CF;
+}
+
+#submit {
+	margin: 0 auto;		
+}
+
+/* #Media Queries
+================================================== */
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1024px) {
+	body {
+		width: 100%;
+	}
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		body {
+	}
+	
+		form {
+			width: 100%;
+			margin: 0 auto;	
+		}
+
+
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 480px) {
+		
+		body {
+		width: 100%;	
+		}
+		
+		
+		input {
+			width: 99%	
+		}
+		
+		form {
+			width: 100%;	
+			
+		}
+		
+		input[type='range'] {
+		width: 60%;	
+		}
+
+
+
+		}
+

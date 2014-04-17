@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: yellow;	
+}
+
+h1 {
+	text-align: center;	
+	color: purple;	
+
+}
+
+h2 {
+	text-align: center;
+	color: yellow;
+}
+
+div.outer {
+	position: relative;
+	width: 750px;
+	height: 900px;
+	margin: 15px auto;
+	background-color: #369;
+	border: solid 1px black;	
+}
+
+div#first {
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	width: 220px;
+	padding: 15px;	
+}
+
+div#second {
+	position: absolute;
+	top: 0;
+	left: 250px;
+	width: 220px;
+	padding: 15px;	
+}
+
+div#third {
+	position: absolute;
+	top: 0;
+	left: 500px;
+	width: 220px;
+	padding: 15px;
+}
+
+img#S60_front {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	padding: 300px 0 0 0;
+}
+
+img#S60_back {
+	width: 200px;
+	height: 200px;	
+	position: fixed;
+}
+
+img#S60_blue {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 200px;
+	top: 400px;
+	z-index: 4;
+}
+
+img#S60_red {
+	width: 150px;
+	height: 150px;	
+	position: absolute;
+	left: 475px;
+	top: 375px;
+	z-index: 3;
+}
+
+img#S60_white {
+	width: 200px;
+	height: 200px;	
+	position: absolute;
+	left: 300px;
+	top: 250px;
+}
+
+div#S60R {
+	position: absolute;
+	top: 500px;
+	left: 500px;
+	width: 220px;
+	padding: 15px;
+	text-align: center;
+}
+
+div#S60R_2 {
+	position: absolute;
+	top: 500px;
+	left: 10px;
+	width: 220px;
+	padding: 15px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: white;	
+}
+
+/* #Media Queries
+================================================== */
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1024px) {
+body {
+	width: 100%;
+	overflow-x: hidden;	
+	background-color: yellow;
+}
+
+div.outer {
+	width: 100%;
+	overflow-x: hidden;	
+}
+
+div#first {
+	position: absolute;
+	top: 0;
+	left: 4%;
+	float: left;
+	width: 30%;
+	padding: 15px;
+	font-size: 0.938em;
+}
+
+div#second {
+	position: absolute;
+	top: 0;
+	left: 35%;
+	width: 30%;
+	padding: 15px;	
+	font-size: 0.938em;
+}
+
+div#third {
+	position: absolute;
+	top: 0;
+	left: 68%;
+	width: 30%;
+	padding: 15px;
+	font-size: 0.938em;
+	padding-right: 5px;
+}
+
+img#S60_blue {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 200px;
+	top: 400px;
+	z-index: 4;
+}
+
+img#S60_red {
+	width: 150px;
+	height: 150px;	
+	position: absolute;
+	left: 475px;
+	top: 375px;
+	z-index: 3;
+}
+
+img#S60_white {
+	width: 200px;
+	height: 200px;	
+	position: absolute;
+	left: 300px;
+	top: 250px;
+}
+
+div#S60R {
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	width: 220px;
+	padding: 15px;
+	text-align: center;
+}
+
+div#S60R_2 {
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	width: 220px;
+	padding: 15px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+body {
+	width: 100%;
+	overflow-x: hidden;	
+	background-color: yellow;
+}
+
+div.outer {
+	width: 100%;
+	overflow-x: hidden;	
+}
+div#first {
+	width: 80%;	
+	font-size: 0.938em;
+	padding: 0 15px 0 0;
+}
+
+div#second {
+	width: 80%;
+	top: 14%;
+	left: 5%;
+	font-size: 0.938em
+;
+}
+
+div#third {
+	width: 80%;
+	top: 27%;
+	left: 5%;
+	font-size: 0.938em;
+}
+
+img#S60_blue {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 40%;
+	top: 65%;
+	width: 20%;
+	
+}
+
+img#S60_red {
+	width: 150px;
+	height: 150px;	
+	position: absolute;
+	left: 40%;
+	top: 45%;
+	width: 20%;
+}
+
+img#S60_white {
+	width: 150px;
+	height: 150px;	
+	position: absolute;
+	left: 40%;
+	top: 85%;
+	width: 20%
+}
+
+div#S60R {
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	width: 30%;
+	padding: 15px;
+	text-align: center;
+}
+
+div#S60R_2 {
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	width: 30%;
+	padding: 15px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: white;	
+}
+
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 480px) {
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	background-color: yellow;
+}
+
+h1 {
+	color: purple	
+}
+
+div.outer {
+	width: 100%;
+	overflow-x: hidden;	
+	
+}
+div#first {
+	width: 80%;	
+	font-size: 0.813em;
+}
+
+div#second {
+	width: 80%;
+	top: 13%;
+	left: 5%;
+	font-size: 0.813em;
+}
+
+div#third {
+	width: 80%;
+	top: 27%;
+	left: 5%;
+	font-size: 0.813em;
+}
+
+img#S60_blue {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 10%;
+	top: 45%;
+}
+
+img#S60_red {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left: 37%;
+	top: 63%;
+}
+
+img#S60_white {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+}
+
+div#S60R {
+	width: 80%;
+	top: 70%;
+	left: 5%;
+	font-size: 0.813em;
+}
+
+div#S60R_2 {
+	width: 80%;
+	top: 90%;
+	left: 5%;
+	font-size: 0.813em;
+}
+
+p {
+	text-align: center;
+	color: white;	
+}
+
+		}
