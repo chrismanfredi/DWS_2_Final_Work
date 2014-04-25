@@ -1,0 +1,1076 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body {
+	background-image:url(../img/background.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Lobster', 'cursive';
+	color: black;
+}
+
+h2 {
+	text-align: center;	
+	font-family: 'Permanent Marker', 'cursive';
+
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	color: black;	
+}
+
+ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+	padding-left: 40%;
+    list-style: none;
+	padding-bottom: 10%;
+	
+}
+
+ul li
+{
+    display: block;
+    position: relative;
+    float: left;
+}
+
+li ul
+{
+    display: none;
+}
+
+ul li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #2E6AB9;
+    margin-left: 1px;
+}
+
+ul li a:hover 
+{
+    background: #FDB000;
+	color: black;
+}
+li:hover ul 
+{
+    display: block;
+    position: absolute;
+}
+
+li:hover li
+{
+    float: none;
+    font-size: 11px;
+}
+
+li:hover a 
+{
+    background: #2E6AB9;
+}
+
+li:hover li a:hover 
+{
+    background: #FBD000;
+}
+p {
+	background-color: white;
+	padding: 5px;
+	border-radius: 10px;	
+}
+	
+#banner {
+	height: 5%;
+	width: 20%;
+	margin-left: 10%;	
+}
+
+#ship {
+	width: 30%;
+	height: 60%;	
+	position: absolute;
+	left: 65%;
+	top: 35%;
+	border: 2px solid white;
+}
+
+#wavepool {
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	top: 100%;
+	left: 5%;
+	border: 2px solid white;
+}
+
+#ship_p {
+	width: 50%;
+	float: left;	
+	margin-left: 5%;
+}
+
+#wavepool_p {
+	width: 50%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 15%;
+}
+
+.ships #oasis {
+	width: 20%;
+	height: 40%;
+	position: absolute;
+	top: 180%;
+	left: 5%;
+	padding-bottom: 2%;	
+}
+
+.ships #freedom {
+	width: 20%;
+	height: 40%;
+	position: absolute;
+	top: 180%;
+	left: 40%;	
+	padding-bottom: 2%;
+}
+
+.ships #liberty {
+	width: 20%;
+	height: 40%;
+	position: absolute;
+	top: 180%;
+	left: 75%;
+	padding-bottom: 2%;	
+}
+
+#container1 {
+    float:left;
+    width:100%;
+}
+#col1 {
+	height: 500px;
+    float:left;
+    width: 31%;
+	margin-top: 28%;
+	padding: 10px;
+	
+   
+}
+#col2 {
+	height: 500px;
+    float:left;
+    width: 31%;
+	margin-top: 28%;
+	padding: 10px;
+}
+#col3 {
+	height: 500px;
+    float:left;
+    width: 31%;
+    margin-top: 28%;
+	padding: 10px;
+
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    top: 290%;
+    width: 100%;
+	clear: both;
+}
+
+table
+{ 
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+}
+
+nput[type='range'] {
+	background-color: green;	
+}
+
+input[type="checkbox"] {
+	background-color: green;
+	width: 3%;	
+	clear: both;
+}
+
+input[type="radio"] {
+	background-color: green;
+	width: 3%;	
+	clear: both;
+}
+
+label {
+    display: block;
+	color: #F6C41D;
+
+}
+input {
+	width: 90%;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
+	position: relative;
+	top: -1px;
+    overflow: hidden;
+	border-radius: 10px;
+	background-color: #FFC;
+	border: 2px solid #E7E6E0;
+}
+
+input #submit {
+	color:#090;
+	background-color:#FF3;
+	padding:5px;
+	margin:20px;
+	width:230px;
+	height: 30px;
+	text-align:center;
+	clear: both;
+}
+
+input#submit:hover {
+	color: #930;
+	background-color: #00C;
+}
+
+input:focus {
+	background-color: Yellow;
+	color: Black;	
+}
+
+textarea:active {
+	background-color: yellow;	
+}
+
+
+input.radio {
+	color: green;	
+	text-align: left;
+	padding: 0 30px 30px 0;
+
+}
+
+
+form {
+	border: 1px solid black;	
+	width: 40%;
+	margin: 0 auto;
+	background-color: #306DB5;
+}
+
+#submit {
+	margin: 0 auto;		
+}
+
+
+
+#photo1 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 5%;
+	top: 60%;	
+}
+
+#photo1:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+#photo2 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 25%;
+	top: 60%;	
+}
+
+#photo2:hover {
+	transform:skew(130deg, 210deg);
+	-ms-transform:skew(130deg, 210deg);;
+	-webkit-transform:skew(130deg, 210deg);;
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo3 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 45%;
+	top: 60%;	
+}
+
+#photo3:hover {
+	transform:translateY(100px);
+	-ms-transform:translateY(100px);
+	-webkit-transform:translateY(100px);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo4 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 65%;
+	top: 60%;	
+}
+
+#photo4:hover {
+	transform:translateY(-100px);
+	-ms-transform:translateY(-100px);
+	-webkit-transform:translateY(-100px);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo5 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 83%;
+	top: 60%;	
+}
+
+#photo5:hover {
+	transform:translateX(-50px);
+	-ms-transform:translateX(-50px);
+	-webkit-transform:translateX(-50px);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;
+}
+
+
+#photo6 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 5%;
+	top: 90%;	
+}
+
+#photo6:hover {
+	transform:translateX(50px);
+	-ms-transform:translateX(50px);
+	-webkit-transform:translateX(50px);
+	transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
+
+
+#photo7 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 25%;
+	top: 90%;	
+}
+
+#photo7:hover {
+	transform:scale(2,2);
+	-ms-transform:scale(2,2);
+	-webkit-transform:scale(2,2);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;	
+}
+
+
+#photo8 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 45%;
+	top: 90%;	
+}
+
+#photo8:hover {
+	transform:scaleY(2);
+	-ms-transform:scaleY(2);
+	-webkit-transform:scaleY(2);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo9 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 65%;
+	top: 90%;	
+}
+
+#photo9:hover {
+	transform:skewY(10deg);
+	-ms-transform: skewY(10deg);
+	-webkit-transform: skewY(10deg);
+
+		
+}
+
+
+#photo10 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 83%;
+	top: 90%;	
+}
+
+#photo10:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo11 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 5%;
+	top: 120%;	
+}
+
+#photo11:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo12 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 25%;
+	top: 120%;
+}
+
+#photo12:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo13 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 45%;
+	top: 120%;	
+}
+
+#photo13:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo14 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left:65%;
+	top: 120%;	
+}
+
+#photo14:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo15 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 83%;
+	top: 120%;	
+}
+
+#photo15:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;	
+}
+
+
+#photo16 {
+	width: 15%;
+	height: 15%;
+	position: absolute;
+	left: 45%;
+	top: 150%;	
+}
+
+#photo16:hover {
+	transition:width 2s;
+	-ms-transition:width 2s;
+	-webkit-transition:width 2s;
+	transition-timing-function:ease-in-out;
+	-ms-transition-timing-function:ease-in-out;
+	-webkit-transition-timing-function:ease-in-out;		
+}
+
+
+#video1 {
+	position: absolute;
+	left: 10%;
+	top: 200%;	
+}
+
+#video2 {
+	position: absolute;
+	left: 55%;
+	top: 200%;	
+}
+
+.button-wrapper {
+	display: block;
+	text-align: center;
+}
+
+.button {
+	background-color: blue;
+	color: green;
+ 	border: none;
+ 	border-radius: 3em;
+ 	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+ 	display: inline-block;
+ 	font-size: 1em;
+ 	padding: 1em 2em;
+ 	width: auto;
+}
+
+.button:hover {
+	background-color: white;
+	color: black	
+}
+
+/* #Media Queries
+================================================== */
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1024px) {
+		
+html {
+	background-color: green;
+}
+
+#ship {
+
+	clear: both;	
+}
+
+#wavepool {
+	margin-top: 5%;	
+}
+
+#wavepool_p {
+	padding-bottom: 20%;	
+}
+
+#col1 {
+			width: 30%;
+			position: absolute;
+			top: 360%;
+			left: 50%;
+			
+		}
+		
+		#col2 {
+			width: 30%;
+			position: absolute;
+			top: 420%;
+			left: 1%;
+			
+		}
+		
+		#col3 {
+			width: 30%;
+			position: absolute;
+			top: 480%;
+			left: 1%;
+			
+		}
+
+p {
+	clear: both;
+	width: 100%;	
+}
+	
+	
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		html {
+			background-color: purple;
+			width: 100%;
+			height: 800%;
+			overflow-x: hidden;
+		}
+		
+		h1 {
+			font-size: 30px;
+			clear: both;	
+		}
+		
+		#banner {
+			height: 20%;	
+		}
+		nav li {  
+   		display: block;  
+    	float: left;  
+    	width: 80%;  
+		}  
+		nav li a {  
+    	border-bottom: 1px solid #576979;  
+		}  
+			
+		body {
+			overflow: hidden;
+		}
+		
+		#ship {
+			width: 40%;
+			height: 20%;
+			clear: left;
+			margin-top: 140%;	
+		}
+		
+		#ship_p {
+			width: 90%;
+			clear: left;	
+		}
+		
+		#wavepool {
+			margin-top: 30%;
+			width: 50%;	
+			height: 30%;
+		}
+		
+		#wavepool_p {
+			width: 100%;
+			clear: both;
+			margin: 100% 0 5% 5%;	
+		}
+		
+		.ships #oasis {
+			width: 50%;
+			position: absolute;
+			top: 260%;
+			left: 20%;	
+		}
+		
+		.ships #liberty {
+			width: 50%;
+			position: absolute;
+			top: 300%;
+			left: 20%;	
+		}
+		
+		.ships #freedom {
+			width: 50%;
+			position: absolute;
+			top: 340%;
+			left: 20%;	
+		}
+		
+		#col1 {
+			width: 90%;
+			position: absolute;
+			top: 360%;
+			left: 1%;
+			
+		}
+		
+		#col2 {
+			width: 90%;
+			position: absolute;
+			top: 420%;
+			left: 1%;
+			
+		}
+		
+		#col3 {
+			width: 90%;
+			position: absolute;
+			top: 480%;
+			left: 1%;
+			
+		}
+		footer {
+			position: absolute;
+			top: 800%;
+			left: 1%;
+				
+		}
+		
+		footer nav li {  
+   		display: block;  
+    	float: left;  
+    	width: 80%;  
+		}  
+		 footer nav li a {  
+    	border-bottom: 1px solid #576979;  
+		}
+		
+		form {
+			width: 95%;	
+		}  
+		
+			/* Photo 1 Red Skins Logo Top Left */
+#photo1 {
+	width: 99%;
+	height: 45%;	
+	position: absolute;
+	left: 1%;
+	top: 20%;
+}
+
+/* Photo 2 Red Skins Pin Top Center */
+#photo2 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 60%;	
+}
+
+/* Photo 3 Red Skins Gloves Top Right */
+#photo3 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 100%;		
+}
+
+/* Photo 4 Red Skins player second row left */
+#photo4 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 140%;	
+}
+
+/* Photo 5 Red Skins winter hat second row center */
+#photo5 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 180%;	
+}
+
+/* Photo 6 Red Skins Helmet Second Row Right */
+#photo6 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 220%;	
+}
+
+/* Photo 7 Red Skins Wallpaper Third Row Left */
+#photo7 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 260%;	
+}
+
+/* Photo 8 Red Skins Cake Third Row center */
+#photo8 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 300%;	
+}
+
+/* Photo 9 Red Skins Arrow Third Row Right */
+#photo9 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 340%;	
+}
+
+/* Photo 10 Red Skins Hat Forth Row Center */
+#photo10 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 380%;		
+}
+
+/* Photo 5 Red Skins winter hat second row center */
+#photo11 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 420%;	
+}
+
+/* Photo 6 Red Skins Helmet Second Row Right */
+#photo12 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 460%;	
+}
+
+/* Photo 7 Red Skins Wallpaper Third Row Left */
+#photo13 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 500%;	
+}
+
+/* Photo 8 Red Skins Cake Third Row center */
+#photo14 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 540%;	
+}
+
+/* Photo 9 Red Skins Arrow Third Row Right */
+#photo15 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 580%;	
+}
+
+/* Photo 10 Red Skins Hat Forth Row Center */
+#photo16 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 620%;		
+}
+
+#video1 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 660%;	
+		
+}
+
+#video2 {
+	width: 99%;
+	height: 50%;
+	position: absolute;
+	left: 1%;
+	top: 700%;	
+		
+}
+
+
+
+			
+	
+	
+
+
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 480px) {
+		
+		html {
+			background-color: purple;
+			width: 100%;
+			height: 600%;
+			overflow-x: hidden;
+		}
+		
+		
+		#banner {
+			height: 20%;	
+		}
+		nav li {  
+   		display: block;  
+    	float: left;  
+    	width: 80%;  
+		}  
+		nav li a {  
+    	border-bottom: 1px solid #576979;  
+		}  
+			
+		body {
+			overflow: hidden;
+		}
+		
+		#ship {
+			width: 40%;
+			height: 20%;
+			clear: left;
+			margin-top: 140%;	
+		}
+		
+		#ship_p {
+			width: 90%;
+			clear: left;	
+		}
+		
+		#wavepool {
+			margin-top: 30%;
+			width: 50%;	
+			height: 30%;
+		}
+		
+		#wavepool_p {
+			width: 100%;
+			clear: both;
+			margin: 100% 0 5% 5%;	
+		}
+		
+		.ships #oasis {
+			width: 50%;
+			position: absolute;
+			top: 260%;
+			left: 20%;	
+		}
+		
+		.ships #liberty {
+			width: 50%;
+			position: absolute;
+			top: 300%;
+			left: 20%;	
+		}
+		
+		.ships #freedom {
+			width: 50%;
+			position: absolute;
+			top: 340%;
+			left: 20%;	
+		}
+		
+		#col1 {
+			width: 90%;
+			position: absolute;
+			top: 360%;
+			left: 1%;
+			
+		}
+		
+		#col2 {
+			width: 90%;
+			position: absolute;
+			top: 420%;
+			left: 1%;
+			
+		}
+		
+		#col3 {
+			width: 90%;
+			position: absolute;
+			top: 480%;
+			left: 1%;
+			
+		}
+		footer {
+			position: absolute;
+			top: 800%;
+				
+		}
+		
+		footer nav li {  
+   		display: block;  
+    	float: left;  
+    	width: 80%;  
+		}  
+		 footer nav li a {  
+    	border-bottom: 1px solid #576979;  
+		}  
+		
+		form {
+			width: 95%;	
+		}
+		
+		
+			
+
+
+		
+	
+
+
+		}
