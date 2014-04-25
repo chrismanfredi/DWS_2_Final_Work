@@ -116,7 +116,7 @@ p {
 	width: 30%;
 	height: 60%;
 	position: absolute;
-	top: 100%;
+	top: 120%;
 	left: 5%;
 	border: 2px solid white;
 }
@@ -131,7 +131,7 @@ p {
 	width: 50%;
 	float: right;
 	margin-right: 5%;
-	margin-top: 18%;
+	margin-top: 15%;
 }
 
 .ships #oasis {
