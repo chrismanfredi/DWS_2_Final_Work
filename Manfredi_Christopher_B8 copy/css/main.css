@@ -1,0 +1,988 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: green;	
+	width: 100%;
+}
+
+h1 {
+	text-align: center;	
+	font-family: 'Oleo Script', cursive;
+	color: #651E2C;
+
+}
+
+
+/* Photo 1 Red Skins Logo Top Left */
+#logo {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+
+#logo:hover {
+	transform:skew(170deg,170deg);
+	-ms-transform:skew(170deg,170deg);
+	-webkit-transform:skew(170deg,170deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;	
+}
+
+/* Photo 2 Red Skins Pin Top Center */
+#pin {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 70%;
+	top: 20%;	
+}
+
+#pin:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;
+		
+}
+
+/* Photo 3 Red Skins Gloves Top Right */
+#gloves {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 90%;
+	top: 20%;	
+}
+
+#gloves:hover {
+	transform:translateX(-100px);
+	-ms-transform:translateX(-100px);
+	-webkit-transform:translateX(-100px);	
+}
+
+/* Photo 4 Red Skins player second row left */
+#player {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 40%;	
+}
+
+#player:hover {
+	transform:translateX(100px);
+	-ms-transform:translateX(100px);
+	-webkit-transform:translateX(100px);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;	
+}
+
+/* Photo 5 Red Skins winter hat second row center */
+#winterhat {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 70%;
+	top: 40%;	
+}
+
+#winterhat:hover {
+	transition:width 2s;
+	-ms-transition:width 2s;
+	-webkit-transition:width 2s;
+	transition-timing-function:ease-in-out;
+	-ms-transition-timing-function:ease-in-out;
+	-webkit-transition-timing-function:ease-in-out;	
+}
+
+/* Photo 6 Red Skins Helmet Second Row Right */
+#helmet {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 90%;
+	top: 40%;	
+}
+
+/* Photo 7 Red Skins Wallpaper Third Row Left */
+#wallpaper {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 60%;	
+}
+
+#wallpaper:hover {
+	transform:translateY(100px);
+	-ms-transform:translateY(100px);
+	-webkit-transform:translateY(100px);	
+}
+
+/* Photo 8 Red Skins Cake Third Row center */
+#cake {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 70%;
+	top: 60%;	
+}
+
+#cake:hover {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	-webkit-transform:rotate(360deg);
+	transition-duration: 3s;
+	-ms-transition-duration: 3s;
+	-webkit-transition-duration: 3s;
+	transition-delay: 1s;
+	-ms-transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+		
+}
+
+/* Photo 9 Red Skins Arrow Third Row Right */
+#arrow {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 90%;
+	top: 60%;	
+}
+
+/* Photo 10 Red Skins Hat Forth Row Center */
+#hat {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 70%;
+	top: 80%;	
+}
+
+#hat:hover {
+	transition-timing-function:linear;
+	-ms-transition-timing-function:linear;
+	-webkit-transition-timing-function:linear;	
+	transition-delay: 2s;
+	-ms-transition-delay: 2s;
+	-webkit-transition-delay: 2s;
+}
+
+img  {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+img:hover {
+	-webkit-transform: scale(1.5);
+	-ms-transition: scale(1.5);
+}
+
+li {
+	list-style: none;	
+	display: inline;
+}
+
+ul {
+	text-align: center;	
+}
+
+a {
+	color: white;
+	border: 2px solid red;
+	background-color: black;
+	padding: 5px;	
+	margin: 5px;
+}
+
+a:hover {
+    background-color: #51011F;
+    -webkit-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+	 color: #FCA92E;
+    -webkit-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+    transition: color 1s linear;
+}
+
+
+/* Article 1 */
+
+#article {
+	border: 2px solid black;
+	width: 35%;	
+	clear: both;
+	height: 35%;
+	padding: 5px;
+	margin: 5px;
+	background-color: white;
+}
+
+#article:hover {
+	background-color: #651E2C;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+}
+
+#article p:hover {
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;
+}
+
+
+/* Article 2 */
+
+#article2 {
+	border: 2px solid black;
+	width: 35%;
+	height: 35%;
+	margin-top: 20px;
+	margin-left: 5px;
+	padding: 5px;	
+	background-color: white;
+}
+		
+#article2:hover {
+	background-color: #651E2C;
+    -webkit-transition-property: width;
+	-ms-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	transition-duration: 2s;
+	width: 40%;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+
+#article2 h2 {
+	color: #E8A800;	
+	width: 30%;
+	text-align: right;
+	
+}
+
+#article2 h2:hover {
+	color: #E8A800;
+	-webkit-transition-property: width;
+	-ms-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	width: 50%;
+		
+}
+
+#article2 p,h2:hover {
+	color: #E8A800;	
+}
+
+
+
+
+/* Article 3 */
+
+#article3 {
+	width: 40%;	
+	float: left;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 100px 0 30px 30px;
+}
+
+#article3:hover {
+	transform:skew(170deg,170deg);
+	-ms-transform:skew(170deg,170deg);
+	-webkit-transform:skew(170deg,170deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;	
+	background-color: #651E2C;
+}
+
+
+
+
+
+/* Article 4 */
+
+#article4 {
+	width: 40%;	
+	float: left;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 100px 0 30px 30px;
+}
+
+#article4:hover {
+	transform:translateX(100px);
+	-ms-transform:translateX(100px);
+	-webkit-transform:translateX(100px);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;	
+	background-color: #651E2C;
+}
+
+
+
+/* Article 5 */
+
+#article5 {
+	width: 40%;	
+	float: left;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 10px 0 30px 30px;
+	clear: both;
+}
+
+#article5:hover {
+	transition:width 2s;
+	-ms-transition:width 2s;
+	-webkit-transition:width 2s;
+	transition-timing-function:ease-in-out;
+	-ms-transition-timing-function:ease-in-out;
+	-webkit-transition-timing-function:ease-in-out;
+	transition-delay: 1s;
+	-ms-transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+	color: #E8A800;	
+	background-color: #651E2C;
+	width: 90%;
+}
+
+
+
+
+
+
+/* #Media Queries
+================================================== */
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 1024px) {
+	
+	/* Photo 1 Red Skins Logo Top Left */
+#logo {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 20%;
+}
+
+/* Photo 2 Red Skins Pin Top Center */
+#pin {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 70%;
+	top: 20%;	
+}
+
+/* Photo 3 Red Skins Gloves Top Right */
+#gloves {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 90%;
+	top: 20%;	
+}
+
+/* Photo 4 Red Skins player second row left */
+#player {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 40%;	
+}
+
+/* Photo 5 Red Skins winter hat second row center */
+#winterhat {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 70%;
+	top: 40%;	
+}
+
+/* Photo 6 Red Skins Helmet Second Row Right */
+#helmet {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 90%;
+	top: 40%;	
+}
+
+/* Photo 7 Red Skins Wallpaper Third Row Left */
+#wallpaper {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 60%;	
+}
+
+/* Photo 8 Red Skins Cake Third Row center */
+#cake {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 70%;
+	top: 60%;	
+}
+
+/* Photo 9 Red Skins Arrow Third Row Right */
+#arrow {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 90%;
+	top: 60%;	
+}
+
+/* Photo 10 Red Skins Hat Forth Row Center */
+#hat {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 70%;
+	top: 80%;	
+}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	
+	
+	/* Photo 1 Red Skins Logo Top Left */
+#logo {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 10%;
+	top: 20%;
+}
+
+/* Photo 2 Red Skins Pin Top Center */
+#pin {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 20%;
+	top: 20%;	
+}
+
+/* Photo 3 Red Skins Gloves Top Right */
+#gloves {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 30%;
+	top: 20%;	
+}
+
+/* Photo 4 Red Skins player second row left */
+#player {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 40%;
+	top: 20%;	
+}
+
+/* Photo 5 Red Skins winter hat second row center */
+#winterhat {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 20%;	
+}
+
+/* Photo 6 Red Skins Helmet Second Row Right */
+#helmet {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 10%;
+	top: 30%;	
+}
+
+/* Photo 7 Red Skins Wallpaper Third Row Left */
+#wallpaper {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 20%;
+	top: 30%;	
+}
+
+/* Photo 8 Red Skins Cake Third Row center */
+#cake {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 30%;
+	top: 30%;	
+}
+
+/* Photo 9 Red Skins Arrow Third Row Right */
+#arrow {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 40%;
+	top: 36%;	
+}
+
+/* Photo 10 Red Skins Hat Forth Row Center */
+#hat {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 30%;	
+}
+
+#article {
+	border: 2px solid black;
+	width: 35%;	
+	clear: both;
+	height: auto;
+	position: absolute;
+	left: 58%;
+	top: 20%;
+	background-color: white;
+	font-size: 11px;
+}
+
+#article2 {
+	border: 2px solid black;
+	width: 35%;
+	height: auto;
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	background-color: white;
+	font-size: 11px;
+}
+
+#article:hover {
+	background-color: #651E2C;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+}
+
+#article p:hover {
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;
+}
+		
+#article2:hover {
+	background-color: #651E2C;
+    -webkit-transition-property: width;
+	-ms-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	transition-duration: 2s;
+	width: 40%;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+
+#article2 h2 {
+	color: #E8A800;	
+	width: 30%;
+	text-align: right;
+	
+}
+
+#article2 h2:hover {
+	color: #E8A800;
+	-webkit-transition-property: width;
+	-ms-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	width: 50%;
+		
+}
+
+#article2 p,h2:hover {
+	color: #E8A800;	
+}
+
+
+
+#article3 {
+	width: 40%;	
+	float: left;
+	border: 1px solid black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 11px;
+}
+
+#article3:hover {
+	transform:skew(170deg,170deg);
+	-ms-transform:skew(170deg,170deg);
+	-webkit-transform:skew(170deg,170deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;	
+	background-color: #651E2C;
+}
+
+#article4 {
+	width: 40%;	
+	float: left;
+	border: 1px solid black;
+	position: absolute;
+	top: 60%;
+	left: 2%;
+	font-size: 11px;
+}
+
+#article4:hover {
+	transform:translateX(100px);
+	-ms-transform:translateX(100px);
+	-webkit-transform:translateX(100px);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;	
+	background-color: #651E2C;
+}
+
+#article5 {
+	width: 40%;	
+	float: left;
+	border: 1px solid black;
+	clear: both;
+	position: absolute;
+	top: 100%;
+	left: 2%;
+	font-size: 11px;
+}
+
+#article5:hover {
+	transition:width 2s;
+	-ms-transition:width 2s;
+	-webkit-transition:width 2s;
+	transition-timing-function:ease-in-out;
+	-ms-transition-timing-function:ease-in-out;
+	-webkit-transition-timing-function:ease-in-out;
+	transition-delay: 1s;
+	-ms-transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+	color: #E8A800;	
+	background-color: #651E2C;
+	width: 90%;
+	
+}
+
+	
+
+
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 480px) {
+			
+	/* Photo 1 Red Skins Logo Top Left */
+#logo {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 10%;
+	top: 20%;
+}
+
+/* Photo 2 Red Skins Pin Top Center */
+#pin {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 20%;
+	top: 20%;	
+}
+
+/* Photo 3 Red Skins Gloves Top Right */
+#gloves {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 30%;
+	top: 20%;	
+}
+
+/* Photo 4 Red Skins player second row left */
+#player {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 40%;
+	top: 20%;	
+}
+
+/* Photo 5 Red Skins winter hat second row center */
+#winterhat {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 50%;
+	top: 20%;	
+}
+
+/* Photo 6 Red Skins Helmet Second Row Right */
+#helmet {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 10%;
+	top: 30%;	
+}
+
+/* Photo 7 Red Skins Wallpaper Third Row Left */
+#wallpaper {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 20%;
+	top: 30%;	
+}
+
+/* Photo 8 Red Skins Cake Third Row center */
+#cake {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 30%;
+	top: 30%;	
+}
+
+/* Photo 9 Red Skins Arrow Third Row Right */
+#arrow {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 10%;
+	top: 36%;	
+}
+
+/* Photo 10 Red Skins Hat Forth Row Center */
+#hat {
+	width: 7%;
+	height: auto;	
+	position: absolute;
+	left: 20%;
+	top: 36%;	
+}
+
+#article {
+	border: 2px solid black;
+	width: 40%;	
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	background-color: white;
+	font-size: 9px;
+	clear: both;
+}
+
+#article2 {
+	border: 2px solid black;
+	width: 40%;
+	height: auto;
+	position: absolute;
+	top: 54.5%;
+	left: 50%;
+	background-color: white;
+	font-size: 9px;
+}
+
+#article:hover {
+	background-color: #651E2C;
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+}
+
+#article p:hover {
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;
+}
+		
+#article2:hover {
+	background-color: #651E2C;
+    -webkit-transition-property: width;
+	-ms-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	transition-duration: 2s;
+	width: 40%;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+
+#article2 h2 {
+	color: #E8A800;	
+	width: 30%;
+	text-align: right;
+	
+}
+
+#article2 h2:hover {
+	color: #E8A800;
+	-webkit-transition-property: width;
+	-ms-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	width: 50%;
+		
+}
+
+#article2 p,h2:hover {
+	color: #E8A800;	
+}
+
+
+
+#article3 {
+	width: 40%;
+	float: left;
+	border: 1px solid black;
+	position: absolute;
+	top: 32.5%;
+	left: -3%;
+	font-size: 9px;
+}
+
+#article3:hover {
+	transform:skew(170deg,170deg);
+	-ms-transform:skew(170deg,170deg);
+	-webkit-transform:skew(170deg,170deg);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;	
+	background-color: #651E2C;
+}
+
+#article4 {
+	width: 90%;	
+	float: left;
+	border: 1px solid black;
+	position: absolute;
+	top: 67%;
+	left: -3%;
+	font-size: 11px;
+}
+
+#article4:hover {
+	transform:translateX(100px);
+	-ms-transform:translateX(100px);
+	-webkit-transform:translateX(100px);
+	transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+	color: #E8A800;	
+	background-color: #651E2C;
+}
+
+#article5 {
+	width: 90%;	
+	float: left;
+	border: 1px solid black;
+	clear: both;
+	position: absolute;
+	top: 100%;
+	left: -3%;
+	font-size: 11px;
+}
+
+#article5:hover {
+	transition:width 2s;
+	-ms-transition:width 2s;
+	-webkit-transition:width 2s;
+	transition-timing-function:ease-in-out;
+	-ms-transition-timing-function:ease-in-out;
+	-webkit-transition-timing-function:ease-in-out;
+	transition-delay: 1s;
+	-ms-transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+	color: #E8A800;	
+	background-color: #651E2C;
+	width: 90%;
+	
+}
+
+		
+	
+
+
+		}
+
+
